@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPLANE - A Place For Shopping</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <h4>SHOP<span>LANE</span>
+            </h4>
+        </a>
+        <ul class="menu">
+            <li class="menu-item">
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#clothing">
+                    clothings
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#accessories">
+                    accessories
+                </a>
+            </li>
+        </ul>
+        <div class="icons">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <div class="cart">
+                <a href="checkout.html">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <span id="cart-count">0</span>
+                </a>
+            </div>
+            <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="slick-slider">
+            <div class="image">
+                <img src="https://shoplane.netlify.app/img/img1.png" width="100%">
+            </div>
+            <div class="image">
+                <img src="https://shoplane.netlify.app/img/img2.png" width="100%">
+            </div>
+            <div class="image">
+                <img src="https://shoplane.netlify.app/img/img3.png" width="100%">
+            </div>
+            <div class="image">
+                <img src="https://shoplane.netlify.app/img/img4.png" width="100%">
+            </div>
+        </section>
+        <section id="features">
+            <div class="feature-container">
+                <div id="delivery" class="feature-circle">
+                    <img src="https://shoplane.netlify.app/img/icon1.png" alt="">
+                </div>
+                <h4>Free Delivery</h4>
+            </div>
+            <div class="feature-container">
+                <div id="money-back" class="feature-circle">
+                    <img src="https://shoplane.netlify.app/img/icon2.png" alt="">
+                </div>
+                <h4>Money Back Gurantee</h4>
+            </div>
+            <div class="feature-container">
+                <div id="support" class="feature-circle">
+                    <img src="https://shoplane.netlify.app/img/icon3.png" alt="">
+                </div>
+                <h4>Always Support</h4>
+            </div>
+            <div class="feature-container">
+                <div id="payment" class="feature-circle">
+                    <img src="https://shoplane.netlify.app/img/icon4.png" alt="">
+                </div>
+                <h4>Secure Payment</h4>
+            </div>
+        </section>
+        <section id="clothing">
+            <h2 class="section-heading">Clothing for Men and Women</h2>
+            <div id="clothingCard" class="card-container"></div>
+        </section>
+        <section id="accessories">
+            <h2 class="section-heading">Accessories for Men and Women</h2>
+            <div id="accessoriesCard" class="card-container"></div>
+        </section>
+    </main>
+    <footer>
+        <ul id="store">
+            <li>
+                <h3>Online Store</h3>
+            </li>
+            <li><a href="#">Men Clothing</a></li>
+            <li><a href="#">Women Clothing</a></li>
+            <li><a href="#">Men Accessories</a></li>
+            <li><a href="#">Women Accessories</a></li>
+        </ul>
+        <ul id="links">
+            <li>
+                <h3>Helpful links</h3>
+            </li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+        <ul id="partner">
+            <li>
+                <h3>patners</h3>
+            </li>
+            <li><a href="#">zara</a></li>
+            <li><a href="#">pantaloons</a></li>
+            <li><a href="#">levis</a></li>
+            <li><a href="#">ucb</a></li>
+            <li><a href="#">+ many more</a></li>
+        </ul>
+        <ul id="address">
+            <li>
+                <h3>address</h3>
+            </li>
+            <li>building 101</li>
+            <li>central avenue</li>
+            <li>la - 902722</li>
+            <li>united states</li>
+        </ul>
+    </footer>
+    <script src="assets/javaScript/script.js"></script>
+    <script src="assets/javaScript/index.js"></script>
+    
+</body>
+
+</html>
